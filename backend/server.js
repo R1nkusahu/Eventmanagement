@@ -517,15 +517,14 @@ app.get('/booked-customers', (req, res) => {
     });
 });
 
-passport.use(new GoogleStrategy({
-    clientID: '560949330833-l6nju2s3lc27j0o1ucejgb3htjkpcb4o.apps.googleusercontent.com',
-    clientSct: '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',
-    callbackURL: 'http://localhost:3005/auth/google/callback'
-  },
-  (accessToken, refreshToken, profile, cb) => {
-    return cb(null, profile);
-  }
-));
+// passport.use(new GoogleStrategy({
+//     ,
+//     callbackURL: 'http://localhost:3005/auth/google/callback'
+//   },
+//   (accessToken, refreshToken, profile, cb) => {
+//     return cb(null, profile);
+//   }
+// ));
 
 passport.serializeUser((user, cb) => {
   cb(null, user);
