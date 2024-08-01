@@ -1,0 +1,20 @@
+.load{
+  
+color: rgb(0, 0, 0);
+
+margin-top: 350px;
+font-size: 5rem;
+
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+text-align: center;
+
+margin-top: -30px;
+height: 120vh;
+width: 100%;
+background: rgb(149, 199, 221);
+
+}
