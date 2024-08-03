@@ -1,7 +1,9 @@
 
 .eventList {
     padding: 20px;
+    height: 100vh;
     background: linear-gradient(146deg, rgba(222,230,230,1) 27%, rgba(124,209,235,1) 82%);
+
 
 }
 .crd{
